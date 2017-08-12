@@ -1,42 +1,33 @@
 
 // Project: Conway's Game of Life
 // Author: Colin Van Sickle
-// ----------------------------
-// THE RULES
-// 1. Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
-// 2. Any live cell with more than three live neighbours dies, as if by overcrowding.
-// 3. Any live cell with two or three live neighbours lives on to the next generation.
-// 4. Any dead cell with exactly three live neighbours becomes a live cell.
-// ---------------------------- 
-// OTHER THOUGHTS
+/* ----------------------------
+THE RULES
+1. Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
+2. Any live cell with more than three live neighbours dies, as if by overcrowding.
+3. Any live cell with two or three live neighbours lives on to the next generation.
+4. Any dead cell with exactly three live neighbours becomes a live cell.
+---------------------------- */
 // use a node controller to send data to the front-end
 // modular programming
-// export JavaScriptAudition
-// JavaScriptAuditions.itRuns()
-
 var Turtle = require('turtle-canvas');
 var turtle = new Turtle("html-canvas");
+turtle.forward(10);
+turtle.stroke();
 
-  // move turtle forward 10 pixels and draw line
-    turtle.forward(10);
-    turtle.stroke(); 
 
 "use strict";
-
+// export JavaScriptAudition
+// JavaScriptAuditions.itRuns()
 
 var JavaScriptAudition = {
   itRuns: function() {
     return true;
   }
 
+
   // step I: draw one square in the given color at the given position
   // function drawSquare
-  function drawSquare(pos, color, tortoise) {
-    pos = (row, column)
-    screen = tortoise.getscreen()
-    rows
-
-  }
 
   // step II: draw an empty grid using turtle graphics
   // function drawGrid(rows, columns, tortoise)
